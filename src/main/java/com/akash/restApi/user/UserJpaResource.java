@@ -52,4 +52,5 @@ public class UserJpaResource {
 	public void deleteUsers(@PathVariable int id) {
 		repository.deleteById(id);
 	}
+
 }
